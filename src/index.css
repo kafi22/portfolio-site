@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.right-side::after {
+    position: absolute;
+    content: '';
+    background-color: cornflowerblue;
+    height: 100%;
+    width: 100%;
+    top: -5%;
+    left: -3%;
+    z-index: -1;
+    border-radius: 10px;
+   
+}
+
+.about-me::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 60%;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    left: 0%;
+    bottom: 0%;
+}
